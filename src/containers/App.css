@@ -6,10 +6,10 @@ color_palette {
   color5: #6FFFE9;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Dosis:wght@300;400;700&family=Exo:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Arvo:wght@400;700&family=Exo:wght@300;400;700&display=swap');
 
 h1 {
-  font-size: 48px;
+  font-size: 60px;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -131,4 +131,10 @@ h3 {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+}
+
+.email-form {
+  /* text-align: left; */
+  margin: auto;
+  /* display: inline-block; */
 }
