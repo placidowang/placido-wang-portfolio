@@ -115,15 +115,19 @@ h3 {
 }
 
 .media-icons a {
+  display: inline-block;
+  height: 32px;
   color: white;
   text-decoration: none;
   transition: 0.6s;
 }
 
 .media-icons a:visited {
+  /* display: inline-block; */
+  /* height: 32px; */
   color: white;
-  text-decoration: none;
-  transition: 0.6s;
+  /* text-decoration: none; */
+  /* transition: 0.6s; */
 }
 
 .media-icons a:hover {
@@ -131,7 +135,7 @@ h3 {
 }
 
 .media-icons a:visited:hover {
-  color: #5bc0be;
+  /* color: #5bc0be; */
 }
 
 .media-icons svg {
