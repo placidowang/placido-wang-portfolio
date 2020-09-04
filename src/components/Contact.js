@@ -12,7 +12,7 @@ const handleSubmit = (e) => {
 
 const Contact = () => <div>
   <h1>Contact</h1>
-  <form className='email-form' onSubmit={(e)=> handleSubmit(e)}>
+  {/* <form className='email-form' onSubmit={(e)=> handleSubmit(e)}>
     <div className='email-form-fields'>
       <label htmlFor='name'>Name </label>
       <input type='text' name='name' placeholder='Name' /><br/>
@@ -22,7 +22,7 @@ const Contact = () => <div>
       <textarea type='text' name='message' rows='5' cols='80' placeholder='Your message here' />
     </div>
     <input type='submit' value='Go' />
-  </form>
+  </form> */}
 </div>
 
 export default Contact;

@@ -3,11 +3,14 @@ import React from 'react';
 const Home = () => <main className='App-main'>
   {/* <h1>Home</h1> */}
   <header className='home-header'>
-    <h1>HEADER</h1>
+    <div>
+    <h1>Placido Wang</h1>
+    <p>Junior Software Engineer</p>
+    </div>
   </header>
   <div>
-    <h3>Placido Wang</h3>
-    <p>Junior Software Engineer</p>
+    <h4>"Without requirements or design, programming is the art of adding bugs to an empty text file."</h4>
+    <h5>Louis Srygley</h5>
   </div><br/>
   <div style={{width: '60%', margin: 'auto'}}>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate lobortis felis, at tincidunt augue mollis vitae. Pellentesque lorem leo, tincidunt vitae auctor id, pretium dignissim erat. Nulla facilisi. Duis ac leo leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi vitae lacinia tellus. Nam pretium nunc orci, ac varius tortor bibendum vitae. Fusce in auctor est. Curabitur ornare iaculis orci, id consequat est suscipit id. Vivamus a odio sodales, ultricies urna ac, dapibus leo. Nam eget congue augue. Ut pretium urna eget augue suscipit volutpat. Sed non dolor velit. Morbi in dictum sapien.</p><br/>

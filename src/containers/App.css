@@ -6,20 +6,8 @@ color_palette {
   color5: #6FFFE9;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Arvo:wght@400;700&family=Exo:wght@300;400;700&display=swap');
-
-h1 {
-  font-size: 60px;
-  font-family: 'Dosis', sans-serif;
-}
-
 h3 {
-  font-size: 28px;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  /* font-size: 28px; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -31,6 +19,7 @@ h3 {
 .App {
   text-align: center;
   /* background-color: rgb(40, 48, 54); */
+  background-color: #352147;
   background-color: #0b132b;
   min-height: 100vh;
   display: flex;
@@ -53,24 +42,35 @@ h3 {
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  height: 6em;
+  height: 4em;
   border-bottom: solid;
   border-width: 1px;
   border-color: #6FFFE9;
   /* box-shadow: 0px 0px 10000px #5bc0be */
 }
 
-.navbar-name {
+.navbar-name h1 {
   white-space: nowrap;
-  margin: 12px;
+  margin: 0 6px;
+  padding: 0 6px;
+  font-family: 'dosis', sans-serif;
+  font-size: 40px;
+
   /* overflow: hidden; */
   /* float: left; */
   /* position: relative; */
   /* left: 0px; */
+  transition: 0.6s;
+
 }
 
-.navbar-name h1, p {
-  margin: 0px;
+.navbar-name h1:hover {
+  background-color: #5bc0be;
+}
+
+.navbar-name a {
+  color: white;
+  text-decoration: none;
 }
 
 .navlink-wrapper {
@@ -107,19 +107,35 @@ h3 {
   align-items: center;
   font-size: 22px;
   /* font-weight: bold; */
+  transition: 0.6s;
 }
 
 .navlink:hover {
   background-color: #5bc0be;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.media-icons a {
+  color: white;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.media-icons a:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.media-icons a:hover {
+  color: #5bc0be;
+}
+
+.media-icons a:visited:hover {
+  color: #5bc0be;
+}
+
+.media-icons svg {
+  margin: 0px 8px;
 }
 
 .home-header {

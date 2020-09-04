@@ -1,5 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons'
+import { 
+  // faEnvelopeOpenText,
+  faEnvelopeSquare
+} from '@fortawesome/free-solid-svg-icons'
 
 const activePageLink = {
   backgroundColor: 'white',
@@ -11,9 +17,12 @@ const activePageLink = {
 
 const Navbar = () => <div className='navbar'>
   <div className='navbar-name'>
-    <h1>Placido Wang</h1>
-    {/* <p>Junior Software Engineer</p> */}
+    <a href='/'>
+      <h1>Placido Wang</h1>
+      {/* <p>Junior Software Engineer</p> */}
+    </a>
   </div>
+  <div style={{width: '280px'}}></div>
   <div className='navlink-wrapper'>
     <div>
     <NavLink to='/' exact
@@ -43,6 +52,20 @@ const Navbar = () => <div className='navbar'>
       Contact
     </NavLink>
     </div>
+  </div>
+  <div className='media-icons'>
+    <a href='contact'>
+      <FontAwesomeIcon icon={faEnvelopeSquare} size='2x' href='google.com'/>
+    </a>
+    <a href='https://medium.com/@placidowang'>
+      <FontAwesomeIcon icon={faMedium} size='2x'/>
+    </a>
+    <a href='https://linkedin.com/in/placidowang'>
+      <FontAwesomeIcon icon={faLinkedin} size='2x'/>
+    </a>
+    <a href='https://github.com/placidowang'>
+      <FontAwesomeIcon icon={faGithub} size='2x'/>
+    </a>
   </div>
 </div>
 
