@@ -1,14 +1,14 @@
 import React from 'react';
 
-// const handleSubmit = (e) => {
-//   e.preventDefault()
-//   const name = e.target[0].value
-//   const email = e.target[1].value
-//   const message = e.target[2].value
-//   // debugger
-//   alert(`Name: ${name}, email: ${email}, Message: ${message}`)
-//   // console.log(e)
-// }
+const handleSubmit = (e) => {
+  e.preventDefault()
+  const name = e.target[0].value
+  const email = e.target[1].value
+  const message = e.target[2].value
+  // debugger
+  alert(`Name: ${name}, email: ${email}, Message: ${message}`)
+  // console.log(e)
+}
 
 const Contact = () => <div>
   <h1>Contact</h1>

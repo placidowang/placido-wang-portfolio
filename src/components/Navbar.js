@@ -16,42 +16,37 @@ const activePageLink = {
 }
 
 const Navbar = () => <div className='navbar'>
+  <div className='navbar-left'>
   <div className='navbar-name'>
     <a href='/'>
       <h1>Placido Wang</h1>
       {/* <p>Junior Software Engineer</p> */}
     </a>
   </div>
-  <div style={{width: '280px'}}></div>
+  </div>
+  {/* <div style={{width: '280px'}}></div> */}
+  <div className='navbar-right'>
   <div className='navlink-wrapper'>
-    <div>
     <NavLink to='/' exact
       className='navlink'
       activeStyle={activePageLink}>
       Home
     </NavLink>
-    </div>
-    <div>
     <NavLink to='/projects' exact
       className='navlink'
       activeStyle={activePageLink}>
       Projects
     </NavLink>
-    </div>
-    <div>
     <NavLink to='/about' exact
       className='navlink'
       activeStyle={activePageLink}>
       About
     </NavLink>
-    </div>
-    <div>
     <NavLink to='/contact' exact
       className='navlink'
       activeStyle={activePageLink}>
       Contact
     </NavLink>
-    </div>
   </div>
   <div className='media-icons'>
     <a href='contact'>
@@ -66,6 +61,7 @@ const Navbar = () => <div className='navbar'>
     <a href='https://github.com/placidowang'>
       <FontAwesomeIcon icon={faGithub} size='2x'/>
     </a>
+  </div>
   </div>
 </div>
 
