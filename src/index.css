@@ -1,5 +1,5 @@
 html {
-  background: url('./wave-bg.jpg') no-repeat center center fixed;
+  background: url('./4249454.jpg') no-repeat center center fixed;
   /* background-repeat: no-repeat; */
   /* background-position: fixed; */
   background-size: cover;
@@ -18,7 +18,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background-color: rgba(100,100,120, 0.45);
 
 }
 

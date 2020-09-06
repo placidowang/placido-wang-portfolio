@@ -1,14 +1,14 @@
 import React from 'react';
 
-const handleSubmit = (e) => {
-  e.preventDefault()
-  const name = e.target[0].value
-  const email = e.target[1].value
-  const message = e.target[2].value
-  // debugger
-  alert(`Name: ${name}, email: ${email}, Message: ${message}`)
-  // console.log(e)
-}
+// const handleSubmit = (e) => {
+//   e.preventDefault()
+//   const name = e.target[0].value
+//   const email = e.target[1].value
+//   const message = e.target[2].value
+//   // debugger
+//   alert(`Name: ${name}, email: ${email}, Message: ${message}`)
+//   // console.log(e)
+// }
 
 const Contact = () => <div>
   <h1>Contact</h1>
@@ -23,6 +23,7 @@ const Contact = () => <div>
     </div>
     <input type='submit' value='Go' />
   </form> */}
+  <a href='https://www.freepik.com/vectors/background' style={{color: 'white'}}>Background vector created by pikisuperstar - www.freepik.com</a>
 </div>
 
 export default Contact;

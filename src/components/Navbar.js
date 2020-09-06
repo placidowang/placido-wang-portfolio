@@ -9,7 +9,7 @@ import {
 
 const activePageLink = {
   backgroundColor: 'white',
-  color: '#5bc0be',
+  color: '#d722dd',
   fontWeight: 'bold',
   underline: 'none',
   // width: '100%',
