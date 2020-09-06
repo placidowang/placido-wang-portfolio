@@ -17,12 +17,12 @@ const activePageLink = {
 
 const Navbar = () => <div className='navbar'>
   <div className='navbar-left'>
-  <div className='navbar-name'>
     <a href='/'>
-      <h1>Placido Wang</h1>
-      {/* <p>Junior Software Engineer</p> */}
+      <div className='navbar-name'>
+          <h1>Placido Wang</h1>
+          {/* <p>Junior Software Engineer</p> */}
+      </div>
     </a>
-  </div>
   </div>
   {/* <div style={{width: '280px'}}></div> */}
   <div className='navbar-right'>

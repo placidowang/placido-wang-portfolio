@@ -10,7 +10,7 @@ import React from 'react';
 //   // console.log(e)
 // }
 
-const Contact = () => <div>
+const Contact = () => <div className="App-main contact">
   <h1>Contact</h1>
   {/* <form className='email-form' onSubmit={(e)=> handleSubmit(e)}>
     <div className='email-form-fields'>

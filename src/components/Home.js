@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => <main className='App-main'>
+const Home = () => <main className='App-main home'>
   {/* <h1>Home</h1> */}
   <header className='home-header'>
     <div>
