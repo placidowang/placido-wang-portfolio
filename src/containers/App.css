@@ -176,6 +176,35 @@ h3 {
   margin-top: 50px;
 }
 
+.project-card {
+  background-color: rgba(0,0,0, 0.7);
+  padding: 20px;
+  margin: 40px 0px;
+  border-top: solid;
+  border-width: 30px;
+  border-color: #6FFFE9;
+}
+
+.project-card div {
+  /* display: block; */
+  display: inline-block;
+  margin: 20px;
+}
+
+.project-thumb {
+  width: 80%;
+  width: 420px;
+  /* margin: auto; */
+}
+
+.project-thumb img {
+  width: 100%;
+}
+
+.project-description {
+
+}
+
 .video-wrapper {
 	position:relative;
 	padding-bottom:56.25%;
