@@ -1,9 +1,9 @@
 html {
-  background: url('./circuit.png') no-repeat center center fixed;
+  /* background: url('./assets/background/wave-bg.jpg') no-repeat center center fixed; */
   /* background-repeat: no-repeat; */
   /* background-position: fixed; */
   background-size: cover;
-  background-color: #0b132b;
+  background-color: #182024;
 
 }
 
@@ -20,7 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgba(90,60,100, 0.55); */
-  background-color: rgba(100,100,100, 0.40);
+  /* background-color: rgba(60,50,70, 0.75); */
 }
 
 code {

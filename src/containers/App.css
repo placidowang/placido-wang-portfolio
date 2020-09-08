@@ -29,7 +29,8 @@ h3 {
 .App-main {
   width: 90%;
   max-width: 1100px;
-  padding-top: 60px;
+  /* padding-top: 60px; */
+  margin-top: 60px;
 }
 
 .App-main-title {
@@ -48,6 +49,7 @@ h3 {
   height: 4em;
   position: fixed;
   top: 0px;
+  background-color: #182024;
   border-bottom: solid;
   border-width: 1px;
   border-color: #6FFFE9;
@@ -74,7 +76,7 @@ h3 {
 }
 
 .navbar-left a:hover {
-  background-color: #d722dd;
+  background-color: #0f6e75;
 }
 
 .navbar-left a {
@@ -130,7 +132,7 @@ h3 {
 }
 
 .navlink:hover {
-  background-color: #d722dd;
+  background-color: #0f6e75;
 }
 
 .media-icons {
@@ -155,7 +157,7 @@ h3 {
 }
 
 .media-icons a:hover {
-  color: #d722dd;
+  color: #0f6e75;
 }
 
 .media-icons svg {
@@ -165,10 +167,8 @@ h3 {
 .home-header {
   width: 100%;
   height: 500px;
-  /* background-color: purple; */
-  /* background-color: rgba(218, 25, 218, 0.4); */
-  background-color: rgba(93, 226, 238, 0.4);
-  background-color: rgba(0,0,0, 0.4);
+  /* background-color: rgba(93, 226, 238, 0.4); */
+  background-color: rgba(0,0,0, 0.7);
 
   display: flex;
   /* align-items: center; */
@@ -180,29 +180,40 @@ h3 {
   background-color: rgba(0,0,0, 0.7);
   padding: 20px;
   margin: 40px 0px;
-  border-top: solid;
-  border-width: 30px;
-  border-color: #6FFFE9;
+  /* border-top: solid; */
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #5bc0be;
+  text-align: left;
+  display: flex;
 }
 
 .project-card div {
-  /* display: block; */
+  display: block;
   display: inline-block;
-  margin: 20px;
+  margin: 0px 20px;
 }
 
 .project-thumb {
-  width: 80%;
+  /* width: 80%; */
+  /* flex-basis: 400px; */
+  flex-grow: 0;
+  flex-shrink: 0;
   width: 420px;
+  height: 236px;
   /* margin: auto; */
+  
 }
 
 .project-thumb img {
   width: 100%;
+  height: 100%;
 }
 
 .project-description {
-
+  text-align: left;
+  /* display: flex; */
+  /* width: 200px; */
 }
 
 .video-wrapper {
