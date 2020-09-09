@@ -6,37 +6,43 @@ import flightGuruDemoGif from '../assets/projects/flight-guru-demo.gif';
 const Projects = () => <div className='App-main projects'>
   <h1 className='App-main-title'>Projects</h1>
     <div className='project-card project-1' >
-      <div className='project-thumb'>
-        <img src={coupReactDemoGif}/>
-      </div>
+      <a href='https://www.youtube.com/watch?v=nPe_mdcDcUk'>
+        <div className='project-thumb'>
+          <img alt='coup react demo gif' src={coupReactDemoGif}/>
+        </div>
+      </a>
       <div className='project-description'>
         <h2>Coup React</h2>
-        <p>Online version of the popular board game Coup. </p>
-        <p>built with JavaScript/React and HTML/CSS</p>
+        <p>Online version of the popular board game Coup. Play with your friends!</p>
+        <p>Built with JavaScript/React and PubNub</p>
         <button>Github</button>
         <button>Demo</button>
       </div>
     </div>
     <div className='project-card project-2' >
-      <div className='project-thumb'>
-        <img src={leagueTrackerDemoGif}/>
-      </div>
+      <a href='https://www.youtube.com/watch?v=cqkF8jGe7jo'>
+        <div className='project-thumb'>
+          <img alt='league tracker demo gif' src={leagueTrackerDemoGif}/>
+        </div>
+      </a>
       <div className='project-description'>
         <h2>League Tracker</h2>
         <p>Database for the game League of Legends. Look up stats for your favorite Champions or search for your summoner profile.</p>
-        <p>built with whatever</p>
+        <p>Built with JavaScript/React and Ruby on Rails</p>
         <button>Github</button>
         <button>Demo</button>
       </div>
     </div>
     <div className='project-card project-3' >
-      <div className='project-thumb'>
-        <img src={flightGuruDemoGif}/>
-      </div>
+      <a href='https://www.youtube.com/watch?v=RzDnEccT6vk'>
+        <div className='project-thumb'>
+          <img alt='flight guru demo gif' src={flightGuruDemoGif}/>
+        </div>
+      </a>
       <div className='project-description'>
         <h2>Flight Guru</h2>
-        <p>Flight tracker</p>
-        <p>restaurants too</p>
+        <p>Flight tracker that searches for airport restaurants based on your flight number.</p>
+        <p>Built with HTML/CSS and Ruby on Rails</p>
         <button>Github</button>
         <button>Demo</button>
       </div>
