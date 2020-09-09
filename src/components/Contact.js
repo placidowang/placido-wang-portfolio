@@ -23,7 +23,7 @@ const Contact = () => <div className="App-main contact">
     </div>
     <input type='submit' value='Go' />
   </form> */}
-  <a href='https://www.freepik.com/vectors/background' style={{color: 'white'}}>Background vector created by pikisuperstar - www.freepik.com</a>
+  {/* <a href='https://www.freepik.com/vectors/background' style={{color: 'white'}}>Background vector created by pikisuperstar - www.freepik.com</a> */}
 </div>
 
 export default Contact;
