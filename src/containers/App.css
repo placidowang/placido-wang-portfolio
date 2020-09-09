@@ -10,6 +10,10 @@ h3 {
   /* font-size: 28px; */
 }
 
+a {
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -80,10 +84,8 @@ h3 {
 }
 
 .navbar-left a {
-  color: white;
   text-decoration: none;
   transition: 0.6s;
-  
 }
 
 .navbar-right {
@@ -147,13 +149,13 @@ h3 {
   /* height: 32px; */
   display: inline-block;
   height: 100%;
-  color: white;
+  /* color: white; */
   text-decoration: none;
   transition: 0.6s;
 }
 
 .media-icons a:visited {
-  color: white;
+  /* color: white; */
 }
 
 .media-icons a:hover {
@@ -188,7 +190,7 @@ h3 {
   display: flex;
 }
 
-.project-card div {
+.project-card > div {
   display: block;
   display: inline-block;
   margin: 0px 20px;
@@ -214,6 +216,14 @@ h3 {
   text-align: left;
   /* display: flex; */
   /* width: 200px; */
+}
+
+.project-github-link {
+  display: inline-block;
+}
+
+.project-github-link p {
+  margin: 0px;
 }
 
 .video-wrapper {

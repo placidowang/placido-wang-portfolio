@@ -15,8 +15,7 @@ const Projects = () => <div className='App-main projects'>
         <h2>Coup React</h2>
         <p>Online version of the popular board game Coup. Play with your friends!</p>
         <p>Built with JavaScript/React and PubNub</p>
-        <button>Github</button>
-        <button>Demo</button>
+        <div className='project-github-link'><a href='https://github.com/placidowang/coup-react'><p>Github</p></a></div>
       </div>
     </div>
     <div className='project-card project-2' >
@@ -29,8 +28,7 @@ const Projects = () => <div className='App-main projects'>
         <h2>League Tracker</h2>
         <p>Database for the game League of Legends. Look up stats for your favorite Champions or search for your summoner profile.</p>
         <p>Built with JavaScript/React and Ruby on Rails</p>
-        <button>Github</button>
-        <button>Demo</button>
+        <div className='project-github-link'><a href='https://github.com/placidowang/league_tracker'><p>Github</p></a></div>
       </div>
     </div>
     <div className='project-card project-3' >
@@ -43,8 +41,7 @@ const Projects = () => <div className='App-main projects'>
         <h2>Flight Guru</h2>
         <p>Flight tracker that searches for airport restaurants based on your flight number.</p>
         <p>Built with HTML/CSS and Ruby on Rails</p>
-        <button>Github</button>
-        <button>Demo</button>
+        <div className='project-github-link'><a href='https://github.com/timothyalton/flight-guru-app'><p>Github</p></a></div>
       </div>
     </div>
 </div>
