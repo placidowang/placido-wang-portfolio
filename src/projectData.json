@@ -1,10 +1,28 @@
 {
-  "project-1": {
-    "name": "Coup React",
-    "description": "Online version of the popular board game Coup. Play with your friends!",
-    "builtWith": "Built with JavaScript/React and PubNub",
-    "demoGif": "../assets/projects/coup-react-demo.gif",
-    "youtubeUrl": "https://www.youtube.com/watch?v=nPe_mdcDcUk",
-    "githubUrl": "https://github.com/placidowang/coup-react"
-  }
+  "projects": [
+    {
+      "name": "Coup React",
+      "nameCamelCase": "coupReact",
+      "description": "Online version of the popular board game Coup. Play with your friends!",
+      "builtWith": "Built with JavaScript/React and PubNub",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nPe_mdcDcUk",
+      "githubUrl": "https://github.com/placidowang/coup-react"
+    },
+    {
+      "name": "League Tracker",
+      "nameCamelCase": "leagueTracker",
+      "description": "Database for the game League of Legends. Look up stats for your favorite Champions or search for your summoner profile.",
+      "builtWith": "Built with JavaScript/React and Ruby on Rails",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cqkF8jGe7jo",
+      "githubUrl": "https://github.com/placidowang/league_tracker"
+    },
+    {
+      "name": "Flight Guru",
+      "nameCamelCase": "flightGuru",
+      "description": "Flight tracker that searches for airport restaurants based on your flight number.",
+      "builtWith": "Built with HTML/CSS and Ruby on Rails",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RzDnEccT6vk",
+      "githubUrl": "https://github.com/timothyalton/flight-guru-app"
+    }
+  ]
 }
