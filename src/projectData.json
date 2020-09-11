@@ -1,0 +1,10 @@
+{
+  "project-1": {
+    "name": "Coup React",
+    "description": "Online version of the popular board game Coup. Play with your friends!",
+    "builtWith": "Built with JavaScript/React and PubNub",
+    "demoGif": "../assets/projects/coup-react-demo.gif",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nPe_mdcDcUk",
+    "githubUrl": "https://github.com/placidowang/coup-react"
+  }
+}

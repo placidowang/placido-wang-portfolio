@@ -1,10 +1,14 @@
 import React from 'react';
+import ProjectCard from '../components/ProjectCard.js';
+
+import projectData from '../projectData.json';
 import coupReactDemoGif from '../assets/projects/coup-react-demo.gif';
 import leagueTrackerDemoGif from '../assets/projects/league-tracker-demo.gif';
 import flightGuruDemoGif from '../assets/projects/flight-guru-demo.gif';
 
 const Projects = () => <div className='App-main projects'>
   <h1 className='App-main-title'>Projects</h1>
+    <ProjectCard project={projectData["project-1"]} />
     <div className='project-card project-1' >
       <a href='https://www.youtube.com/watch?v=nPe_mdcDcUk'>
         <div className='project-thumb'>
