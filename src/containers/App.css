@@ -40,8 +40,8 @@ a {
 .App-main-title {
   font-size: 3em;
   /* border-bottom: solid; */
-  border-color: #6FFFE9;
-  border-width: 1px;
+  /* border-color: #6FFFE9; */
+  /* border-width: 1px; */
 }
 
 .navbar {
