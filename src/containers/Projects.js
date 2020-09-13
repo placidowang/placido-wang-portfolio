@@ -15,6 +15,7 @@ const demoGifs = {
 const Projects = () => <div className='App-main projects'>
   <h1 className='App-main-title'>Projects</h1>
     {projectData.projects.map(p => <ProjectCard
+      key={p.name}
       project={p}
       demoGif={demoGifs[p.nameCamelCase]} />)}
 </div>

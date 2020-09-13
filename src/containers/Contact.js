@@ -11,7 +11,7 @@ import React from 'react';
 // }
 
 const Contact = () => <div className="App-main contact">
-  <h1>Contact</h1>
+  <h1 className='App-main-title'>Contact</h1>
   {/* <form className='email-form' onSubmit={(e)=> handleSubmit(e)}>
     <div className='email-form-fields'>
       <label htmlFor='name'>Name </label>
