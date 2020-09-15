@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Burger from '../components/Burger.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { 
@@ -62,6 +63,7 @@ const Navbar = () => <div className='navbar'>
         <FontAwesomeIcon icon={faGithub} size='2x'/>
       </a>
     </div>
+    <Burger />
   </div>
 </div>
 
