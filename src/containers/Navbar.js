@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Burger from '../components/Burger.js';
+import Menu from '../components/Menu.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { 
@@ -16,7 +17,7 @@ const activePageLink = {
   // width: '100%',
 }
 
-const Navbar = () => <div className='navbar'>
+const Navbar = ({open, setOpen}) => <div className='navbar'>
   <div className='navbar-left'>
     <a href='/'>
       <div className='navbar-name'>
@@ -63,7 +64,14 @@ const Navbar = () => <div className='navbar'>
         <FontAwesomeIcon icon={faGithub} size='2x'/>
       </a>
     </div>
-    <Burger />
+    <div className='burger-menu'>
+      <Burger
+        open={open}
+        setOpen={setOpen} />
+      <Menu
+        open={open}
+        setOpen={setOpen} />
+    </div>
   </div>
 </div>
 
