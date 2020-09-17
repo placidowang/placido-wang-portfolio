@@ -13,25 +13,25 @@ const NavlinksComponent = ({open, setOpen}) => <nav className='navlink-wrapper'>
   <NavLink to='/' exact
     className='navlink'
     activeStyle={activePageLink}
-    onClick={() => setOpen(!open)}>
+    onClick={() => setOpen ? setOpen(!open) : null}>
     Home
   </NavLink>
   <NavLink to='/projects' exact
     className='navlink'
     activeStyle={activePageLink}
-    onClick={() => setOpen(!open)}>
+    onClick={() => setOpen ? setOpen(!open) : null}>
     Projects
   </NavLink>
   <NavLink to='/about' exact
     className='navlink'
     activeStyle={activePageLink}
-    onClick={() => setOpen(!open)}>
+    onClick={() => setOpen ? setOpen(!open) : null}>
     About
   </NavLink>
   <NavLink to='/contact' exact
     className='navlink'
     activeStyle={activePageLink}
-    onClick={() => setOpen(!open)}>
+    onClick={() => setOpen ? setOpen(!open) : null}>
     Contact
   </NavLink>
 </nav>
