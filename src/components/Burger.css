@@ -29,6 +29,19 @@
   transform-origin: 1px;
 }
 
-.open div {
+.burger-open div {
   background: #0f6e75;
+}
+
+.burger-open :first-child {
+  transform: rotate(45deg);
+}
+
+.burger-open :nth-child(2) {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.burger-open :nth-child(3) {
+  transform: rotate(-45deg);
 }

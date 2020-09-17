@@ -3,7 +3,7 @@ import NavlinksComponent from './NavlinksComponent.js';
 import MediaLinksComponent from './MediaLinksComponent.js';
 import './Menu.css';
 
-const Menu = ({ open }) => <nav className={open ? 'menu open' : 'menu'}>
+const Menu = ({ open }) => <nav className={open ? 'menu menu-open' : 'menu'}>
   {/* <a href="/">
     <span role="img" aria-label="Projects">&#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;</span>
     About us
