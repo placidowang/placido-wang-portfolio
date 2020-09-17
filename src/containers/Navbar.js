@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import { useOnClickOutside } from '../hooks.js';
 import Name from '../components/Name.js';
 import NavlinksComponent from '../components/NavlinksComponent.js'
