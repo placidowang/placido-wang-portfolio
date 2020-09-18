@@ -57,5 +57,8 @@
 }
 
 .menu nav.media-icons {
-  
+  position: fixed;
+  bottom: 0;
+  /* margin: auto; */
+  right: calc(33vw - 90px);
 }
