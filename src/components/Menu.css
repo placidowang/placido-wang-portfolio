@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   background: rgb(21, 64, 75);
-  height: 100vh;
+  /* height: 100vh; */
+  height: 100%;
   width: 66vw;
   text-align: left;
   padding: 0px;
