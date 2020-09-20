@@ -36,11 +36,13 @@
 }
 
 .menu nav.navlink-wrapper {
+  display: flexbox;
   margin: 40px 0px 0px;
+  /* margin: auto; */
   /* height: 86vh; */
-  height: 86%;
+  height: 100%;
   width: 100%;
-  /* border-top: solid; */
+  border-top: solid;
   border-bottom: solid;
   border-width: 1px;
   border-color: rgb(31, 91, 102);
@@ -57,9 +59,14 @@
 
 }
 
+.media-links-component-container {
+  height: 50px;
+}
+
 .menu nav.media-icons {
-  position: fixed;
-  bottom: 0;
-  /* margin: auto; */
+  position: absolute;
+  bottom: 4px;
+  /* top: 0; */
+  margin: auto;
   right: calc(33vw - 90px);
 }

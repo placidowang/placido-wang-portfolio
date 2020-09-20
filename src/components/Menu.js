@@ -5,7 +5,9 @@ import './Menu.css';
 
 const Menu = ({ open, setOpen }) => <nav className={open ? 'menu menu-open' : 'menu'}>
   <NavlinksComponent open={open} setOpen={setOpen}/>
-  <MediaLinksComponent />
+  <div className='media-links-component-container'>
+    <MediaLinksComponent />
+  </div>
 </nav>
 
 export default Menu;
