@@ -1,0 +1,45 @@
+.email-form {
+  margin: 20px;
+}
+
+.email-form-fields input {
+  font-family: 'Exo';
+  font-size: 1.4em;
+  /* height: 3em; */
+  width: 90%;
+  max-width: 400px;
+  margin: 4px;
+  border-radius: 6px;
+}
+
+textarea {
+  height: 12em;
+  font-family: 'Exo';
+  font-size: 1.4em;
+  width: 90%;
+  max-width: 400px;
+  margin: 4px;
+  border-radius: 6px;
+}
+
+span[role=alert] {
+  color: red;
+}
+
+.submit-btn {
+  width: 93%;
+  max-width: 400px;
+  height: 40px;
+  color: white;
+  font-family: 'Exo';
+  font-size: 20px;
+  background-color: #0f6e75;
+  border-radius: 6px;
+  border-style: none;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  color: #0f6e75;
+  background-color: white;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
+import './Home.css';
 
 const Home = () => <main className='App-main home'>
   {/* <h1>Home</h1> */}
   <header className='home-header'>
-    <div>
+    <div className='home-header-text'>
       <h1>Coming soon!</h1>
-    {/* <h1>Placido Wang</h1> */}
-    {/* <p>Junior Software Engineer</p> */}
+      <h1>Placido Wang</h1>
+      {/* <p>Junior Software Engineer</p> */}
     </div>
   </header>
   <div>

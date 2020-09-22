@@ -1,0 +1,16 @@
+.home-header {
+  width: 100%;
+  height: 500px;
+  height: 80vh;
+  /* background-color: rgba(93, 226, 238, 0.4); */
+  background: url('../assets/background/circuit.png') no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  background-color: rgba(0,0,0, 0.7);
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 50px;
+}
+
