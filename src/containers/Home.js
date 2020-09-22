@@ -6,15 +6,15 @@ const Home = () => <main className='App-main home'>
   <header className='home-header'>
     <div className='home-header-text'>
       <h1>Coming soon!</h1>
-      <h1>Placido Wang</h1>
+      {/* <h1 className='my-name'>Placido Wang</h1> */}
       {/* <p>Junior Software Engineer</p> */}
     </div>
   </header>
-  <div>
+  <div className='quote'>
     <h4>"Without requirements or design, programming is the art of adding bugs to an empty text file."</h4>
     <h5>-Louis Srygley</h5>
   </div><br/>
-  <div style={{width: '60%', margin: 'auto', backgroundColor: 'rgba(0,0,0, 0.6)', padding: '20px'}}>
+  <div className='placeholder-text'>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate lobortis felis, at tincidunt augue mollis vitae. Pellentesque lorem leo, tincidunt vitae auctor id, pretium dignissim erat. Nulla facilisi. Duis ac leo leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi vitae lacinia tellus. Nam pretium nunc orci, ac varius tortor bibendum vitae. Fusce in auctor est. Curabitur ornare iaculis orci, id consequat est suscipit id. Vivamus a odio sodales, ultricies urna ac, dapibus leo. Nam eget congue augue. Ut pretium urna eget augue suscipit volutpat. Sed non dolor velit. Morbi in dictum sapien.</p><br/>
 <p>
 Donec quis fermentum arcu. Proin a ornare sapien. Vestibulum commodo ante et sem placerat aliquet. Pellentesque eu viverra est. Nulla ut semper erat. Fusce et finibus velit. Aliquam at dignissim purus. Ut in est urna. Nam dapibus enim erat, sed luctus augue rutrum sit amet. Vivamus posuere ac nibh ut rutrum. Ut egestas, turpis sed blandit blandit, sem ex fringilla odio, quis pulvinar enim justo ut lectus. Sed tincidunt leo ac lacus pulvinar, a convallis enim malesuada. Mauris felis lorem, convallis a sem in, fringilla ultrices nunc.</p><br/>
