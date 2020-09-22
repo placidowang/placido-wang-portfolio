@@ -1,13 +1,25 @@
-.email-form {
+.success-message {
+  opacity: 0;
+  color: rgb(76, 209, 71);
+  font-size: 1.2em;
+  transition: 0.3s;
+  /* margin: 0px; */
+}
+
+.sent {
+  opacity: 1;
+}
+
+.contact-form {
   margin: 20px;
 }
 
-.email-form-fields {
+.contact-form-fields {
   margin: auto;
   max-width: 400px;
 }
 
-.email-form-fields input {
+.contact-form-fields input {
   font-family: 'Exo';
   font-size: 1.4em;
   /* height: 3em; */
@@ -43,8 +55,9 @@ textarea {
   /* left: 180px; */
 }
 
-span[role=alert] {
+div[role=alert] {
   color: red;
+  margin: 10px 0px 0px 0px;
 }
 
 .submit-btn {
