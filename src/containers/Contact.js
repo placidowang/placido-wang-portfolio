@@ -1,48 +1,55 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import './Contact.css';
-
-// const handleSubmit = (e) => {
-//   e.preventDefault()
-//   const name = e.target[0].value
-//   const email = e.target[1].value
-//   const message = e.target[2].value
-//   // debugger
-//   alert(`Name: ${name}, email: ${email}, Message: ${message}`)
-//   // console.log(e)
-// }
+import{ init } from 'emailjs-com';
+init("user_10fjvwDAhJO2tzjJ3NOfh");
 
 const Contact = () => {
   const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = data => console.log(data);
+  const onSubmit = data => {
+    console.log(data)
+  };
 
-  console.log(watch('name'));
+  const name = watch('name') || "";
+  const nameCharsLeft = 30 - name.length;
+
+  const message = watch('message') || "";
+  const messageCharsLeft = 500 - message.length;
 
   return (
     <div className="App-main contact">
       <h1 className='App-main-title'>Contact</h1>
       <form className='email-form' onSubmit={handleSubmit(onSubmit)}>
         <div className='email-form-fields'>
-          {/* <label htmlFor='name'>Name </label> */}
+          <input type='hidden' name='contact_number'/>
+
+          {errors.name && errors.name.type === "required" && (
+            <div><span role="alert">Name is required</span><br/></div>
+          )}
           <input type='text' name='name' placeholder='Name' 
-          // ref={register} 
+          maxLength='30'
           aria-invalid={errors.name ? "true" : "false"}
-        ref={register({ required: true, maxLength: 30 })}/><br/>
-              {/* use role="alert" to announce the error message */}
-      {errors.name && errors.name.type === "required" && (
-        <div><span role="alert">This is required</span><br/></div>
-      )}
-      {errors.name && errors.name.type === "maxLength" && (
-        <div><span role="alert">Max length exceeded</span><br/></div>
-      )}
-          {/* <label htmlFor='email'>email </label> */}
-          <input type='email' name='email' placeholder='Email' ref={register}/><br/>
-          {/* <label htmlFor='message'>Message </label> */}
-          <textarea type='text' name='message' 
-          // rows='5' cols='80' 
-          placeholder='Message' ref={register}/>
+          ref={register({ required: true })}/>
+          {/* <p className='chars-left'>{nameCharsLeft}</p> */}
+
+          {errors.email && errors.email.type === "required" && (
+            <div><span role="alert">Email is required</span><br/></div>
+          )}
+          <input type='email' name='email' placeholder='Email' aria-invalid={errors.email ? "true" : "false"}
+          ref={register({ required: true })}/><br/>
+
+
+          {errors.message && errors.message.type === "required" && (
+            <div><span role="alert">Message is required</span><br/></div>
+          )}
+          <textarea type='text' name='message' placeholder='Message' maxLength='500'
+          aria-invalid={errors.message ? "true" : "false"}
+          ref={register({ required: true })}/>
+          <p className='chars-left'>{messageCharsLeft}</p>
+
         </div>
-        <input type='submit' className='submit-btn' value='Go' />
+        <br/>
+        <input type='submit' className='submit-btn' value='Send' />
       </form>
       {/* <a href='https://www.freepik.com/vectors/background' style={{color: 'white'}}>Background vector created by pikisuperstar - www.freepik.com</a> */}
     </div>

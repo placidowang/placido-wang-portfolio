@@ -2,24 +2,45 @@
   margin: 20px;
 }
 
+.email-form-fields {
+  margin: auto;
+  max-width: 400px;
+}
+
 .email-form-fields input {
   font-family: 'Exo';
   font-size: 1.4em;
   /* height: 3em; */
-  width: 90%;
+  width: 96%;
   max-width: 400px;
-  margin: 4px;
+  margin: 4px 0px;
   border-radius: 6px;
+  display: inline-flex;
 }
 
 textarea {
   height: 12em;
   font-family: 'Exo';
   font-size: 1.4em;
-  width: 90%;
+  width: 96%;
   max-width: 400px;
-  margin: 4px;
+  margin: 4px 0px;
   border-radius: 6px;
+}
+
+.chars-left {
+  /* width: 10%; */
+  /* height: 0px; */
+  /* overflow: visible; */
+  /* color: black; */
+  margin: 0px;
+  padding: 0px 4px;
+  float: left;
+  /* display: inline-flex; */
+  /* display: none; */
+  /* position: relative; */
+  /* bottom: 2em; */
+  /* left: 180px; */
 }
 
 span[role=alert] {
@@ -27,19 +48,26 @@ span[role=alert] {
 }
 
 .submit-btn {
-  width: 93%;
+  width: 100%;
   max-width: 400px;
   height: 40px;
+  margin: 8px 0px;
   color: white;
   font-family: 'Exo';
   font-size: 20px;
   background-color: #0f6e75;
   border-radius: 6px;
   border-style: none;
+  cursor: pointer;
   transition: 0.3s;
 }
 
 .submit-btn:hover {
-  color: #0f6e75;
-  background-color: white;
+  color: black;
+  background-color: #4ca09c;
 }
+
+/* .submit-btn:active:after {
+  transition: 0.3s;
+  background-color: #0d575c;
+} */
