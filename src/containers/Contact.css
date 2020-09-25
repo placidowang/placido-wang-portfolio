@@ -16,15 +16,15 @@
 
 .contact-form-fields {
   margin: auto;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .contact-form-fields input {
   font-family: 'Exo';
-  font-size: 1.4em;
+  font-size: 1.2em;
   /* height: 3em; */
   width: 96%;
-  max-width: 400px;
+  max-width: 600px;
   margin: 4px 0px;
   border-radius: 6px;
   display: inline-flex;
@@ -33,11 +33,12 @@
 textarea {
   height: 12em;
   font-family: 'Exo';
-  font-size: 1.4em;
+  font-size: 1.2em;
   width: 96%;
-  max-width: 400px;
+  max-width: 600px;
   margin: 4px 0px;
   border-radius: 6px;
+  resize: vertical;
 }
 
 .chars-left {
@@ -62,7 +63,7 @@ div[role=alert] {
 
 .submit-btn {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   height: 40px;
   margin: 8px 0px;
   color: white;
