@@ -1,13 +1,19 @@
-.success-message {
+.status-message {
   opacity: 0;
-  color: rgb(76, 209, 71);
+  /* opacity: 1; */
   font-size: 1.2em;
   transition: 0.3s;
   /* margin: 0px; */
 }
 
-.sent {
+.success {
   opacity: 1;
+  color: rgb(76, 209, 71);
+}
+
+.fail {
+  opacity: 1;
+  color: rgb(235, 37, 37);
 }
 
 .contact-form {
@@ -85,3 +91,12 @@ div[role=alert] {
   transition: 0.3s;
   background-color: #0d575c;
 } */
+
+@media (max-width: 720px) {
+  .contact-form-fields input {
+    font-size: 1em;
+  }
+  textarea {
+    font-size: 1em;
+  }
+}
