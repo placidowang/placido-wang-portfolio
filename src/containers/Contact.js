@@ -1,37 +1,42 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import './Contact.css';
-import {init, sendForm } from 'emailjs-com';
+import { init, sendForm } from 'emailjs-com';
 init("user_10fjvwDAhJO2tzjJ3NOfh");
 
 const Contact = () => {
   const { register, handleSubmit, watch, errors } = useForm();
-  const contactNumber = Math.random() * 1000000 | 0;
-  // let statusMessage = "asdf";
+  // const randomNum = Math.random() * 1000000 | 0;
+  // const randomNumStr = "000000" + randomNum;
+  // const contactNumber = randomNumStr.substring(12 - randomNum.toString().length);
   const [statusMessage, setStatusMessage] = useState("Message");
+  const [contactNumber, setContactNumber] = useState(Math.random() * 1000000 | 0);
+  console.log(contactNumber);
+  // setContactNumber("000000" + contactNumber)
 
   const onSubmit = data => {
     // console.log(data)
+    
     const form = document.querySelector('#contact-form');
     const statusMsg = document.querySelector('.status-message');
-
-    sendForm('default_service', 'template_cv55kbl', 'contact-form')
-      .then(r => {
-        console.log('SUCCESS!', r.status, r.text)
-        form.reset();
-        setStatusMessage("Message sent!");
-        statusMsg.className = 'status-message success';
-        setTimeout(()=> {
-          statusMsg.className = 'status-message'
-        }, 4000)
-      }, error => {
-        console.log('FAILED...', error)
-        setStatusMessage('Message failed to send! Please try again later.');
-        statusMsg.className = 'status-message fail';
-        setTimeout(()=> {
-          statusMsg.className = 'status-message'
-        }, 6000)
-      });
+console.log(form[0])
+    // sendForm('default_service', 'template_cv55kbl', 'contact-form')
+    //   .then(r => {
+    //     console.log('SUCCESS!', r.status, r.text)
+    //     form.reset();
+    //     setStatusMessage("Message sent!");
+    //     statusMsg.className = 'status-message success';
+    //     setTimeout(()=> {
+    //       statusMsg.className = 'status-message'
+    //     }, 4000)
+    //   }, error => {
+    //     console.log('FAILED...', error)
+    //     setStatusMessage('Message failed to send! Please try again later.');
+    //     statusMsg.className = 'status-message fail';
+    //     setTimeout(()=> {
+    //       statusMsg.className = 'status-message'
+    //     }, 6000)
+    //   });
   };
 
   const name = watch('name') || "";
