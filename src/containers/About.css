@@ -1,0 +1,12 @@
+.about-hero {
+  padding: 1em;
+  background: rgba(0,0,0,0.4);
+}
+
+.about-hero h2 {
+  font-size: 2em;
+}
+
+.about-hero h3 {
+  font-size: 1.4em;
+}
