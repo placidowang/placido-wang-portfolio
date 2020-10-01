@@ -18,14 +18,46 @@ h1 {
   font-size: 4em;
 }
 
-.quote {
-  /* display: none; */
+h3 {
+  font-size: 2em;
 }
 
-.placeholder-text {
-  width: 60%;
+@media (max-width: 720px) {
+  h3 {
+    font-size: 1.4em;
+  }
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.quote {
+  width: 80%;
   margin: auto;
+  margin-top: 20px;
   background-color: rgba(0,0,0,0.6);
   padding: 20px;
   /* display: none; */
 }
+
+.placeholder-text {
+
+  /* display: none; */
+}
+
+.demo {
+  width: 80%;
+}
+
+.contact-me {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact-me svg {
+  margin: 10px;
+}
+
