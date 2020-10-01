@@ -31,8 +31,8 @@ const Home = () => <main className='App-main home'>
   <a className='contact-me' href='contact'><FontAwesomeIcon icon={faEnvelopeSquare} size='2x'/><h3>Contact me!</h3></a>
   
 
-<p>
-Aenean eget tortor vitae nisi ultricies ultricies. Suspendisse laoreet fermentum mauris, at venenatis purus sodales quis. Nullam iaculis vitae lacus ac ultricies. In aliquam, ante dictum imperdiet porta, magna ipsum auctor massa, in dapibus ipsum purus ac magna. Phasellus elementum suscipit nulla eget efficitur. In hendrerit erat eu lectus facilisis euismod. Maecenas lobortis nunc urna, eget condimentum dui sollicitudin tempor. Sed sed vestibulum justo.
+<p className='footer'>
+Placido Wang - 2020
 </p><br/>
 
 </main>
