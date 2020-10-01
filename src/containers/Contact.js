@@ -32,7 +32,7 @@ const Contact = () => {
         }, 4000)
       }, error => {
         console.log('FAILED...', error)
-        setStatusMessage('Message failed to send! Please try again later.');
+        setStatusMessage('Failed to send message! Please try again later.');
         statusMsg.className = 'status-message fail';
         setTimeout(()=> {
           statusMsg.className = 'status-message'
