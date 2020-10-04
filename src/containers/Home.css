@@ -41,8 +41,26 @@ a {
   /* display: none; */
 }
 
-.demo {
+.project-slideshow {
+  position: relative;
   width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.slideshow-title {
+  position: absolute;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.demo {
+  width: 100%;
+}
+
+.slide {
 }
 
 .contact-me {
