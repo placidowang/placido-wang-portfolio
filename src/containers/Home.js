@@ -56,7 +56,6 @@ const Home = () => {
           <div className='slide'>
             <img className='demo' alt='coup thumb' src={flightDemoGif} />
           </div>
-
         </div>
       </a>
       <br/>
