@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { 
   // faEnvelopeOpenText,
+  // eslint-disable-next-line
   faEnvelopeSquare
 } from '@fortawesome/free-solid-svg-icons'
 
