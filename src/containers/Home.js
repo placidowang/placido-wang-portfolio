@@ -41,7 +41,7 @@ const Home = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate lobortis felis, at tincidunt augue mollis vitae. Pellentesque lorem leo, tincidunt vitae auctor id, pretium dignissim erat. Nulla facilisi. Duis ac leo leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi vitae lacinia tellus. Nam pretium nunc orci, ac varius tortor bibendum vitae. Fusce in auctor est. Curabitur ornare iaculis orci, id consequat est suscipit id. Vivamus a odio sodales, ultricies urna ac, dapibus leo. Nam eget congue augue. Ut pretium urna eget augue suscipit volutpat. Sed non dolor velit. Morbi in dictum sapien.</p>
       </div>
       <br/>
-      <a href='projects'>
+      <a href='projects' className='project-slideshow-link'>
         <div className='project-slideshow'>
           <h3 className='slideshow-title'>Check out my projects!</h3>
 

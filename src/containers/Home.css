@@ -57,6 +57,12 @@ a {
   height: 100%;
   width: 100%;
   background-color: rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+.project-slideshow-link:hover .slideshow-title {
+  font-size: 2.2em;
+  background-color: rgba(0,0,0, 0.8);
 }
 
 .demo {
