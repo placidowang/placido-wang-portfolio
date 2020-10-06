@@ -61,9 +61,12 @@ a {
 }
 
 .project-slideshow-link:hover .slideshow-title {
-  font-size: 2.2em;
+  /* font-size: 2.2em; */
+  font-size: 1.5em;
   background-color: rgba(0,0,0, 0.8);
 }
+
+
 
 .demo {
   width: 100%;
@@ -94,6 +97,10 @@ a {
 @media (min-width: 720px) {
   h3 {
     font-size: 2em;
+  }
+
+  .project-slideshow-link:hover .slideshow-title {
+    font-size: 2.2em;
   }
 
   .footer {
