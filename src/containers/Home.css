@@ -1,5 +1,14 @@
+.home {
+  /* width: 100%; */
+  max-width: 1200px;
+
+  padding: 0px;
+}
+
 .home-header {
   width: 100%;
+  /* width: 1200px; */
+  max-width: 1200px;
   /* height: 500px; */
   height: 90vh;
   /* background-color: rgba(93, 226, 238, 0.4); */
@@ -37,7 +46,7 @@ a {
 }
 
 .placeholder-text {
-
+  font-size: 1.2em;
   /* display: none; */
 }
 
@@ -65,8 +74,6 @@ a {
   font-size: 1.5em;
   background-color: rgba(0,0,0, 0.8);
 }
-
-
 
 .demo {
   width: 100%;
@@ -97,6 +104,10 @@ a {
 @media (min-width: 720px) {
   h3 {
     font-size: 2em;
+  }
+
+  .placeholder-text {
+    font-size: 1.8em;
   }
 
   .project-slideshow-link:hover .slideshow-title {

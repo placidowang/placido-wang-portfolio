@@ -38,7 +38,7 @@ const Home = () => {
         <h5>-Louis Srygley</h5>
       </div><br/>
       <div className='placeholder-text'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate lobortis felis, at tincidunt augue mollis vitae. Pellentesque lorem leo, tincidunt vitae auctor id, pretium dignissim erat. Nulla facilisi. Duis ac leo leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi vitae lacinia tellus. Nam pretium nunc orci, ac varius tortor bibendum vitae. Fusce in auctor est. Curabitur ornare iaculis orci, id consequat est suscipit id. Vivamus a odio sodales, ultricies urna ac, dapibus leo. Nam eget congue augue. Ut pretium urna eget augue suscipit volutpat. Sed non dolor velit. Morbi in dictum sapien.</p>
+        <p>Hi! Thanks for checking out my website. I'm interested in how we can work together. Stick around for a bit, look at my work, send me a message!</p>
       </div>
       <br/>
       <a href='projects' className='project-slideshow-link'>

@@ -1,3 +1,7 @@
+.contact {
+  width: 90%;
+}
+
 .status-message {
   opacity: 0;
   /* opacity: 1; */
@@ -22,12 +26,13 @@
 
 .contact-form-fields {
   margin: auto;
+  width: 100%;
   max-width: 600px;
 }
 
 .contact-form-fields input {
   font-family: 'Exo';
-  font-size: 1.2em;
+  font-size: 1em;
   /* height: 3em; */
   width: 96%;
   max-width: 600px;
@@ -39,7 +44,7 @@
 textarea {
   height: 12em;
   font-family: 'Exo';
-  font-size: 1.2em;
+  font-size: 1em;
   width: 96%;
   max-width: 600px;
   margin: 4px 0px;
@@ -92,11 +97,11 @@ div[role=alert] {
   background-color: #0d575c;
 } */
 
-@media (max-width: 720px) {
+@media (min-width: 720px) {
   .contact-form-fields input {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   textarea {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
