@@ -1,3 +1,16 @@
+.navbar-wrapper {
+  width: 100%;
+  background-color: #182024;
+  height: 4em;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #6FFFE9;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: fixed;
+
+}
+
 .navbar {
   /* display: inline-block; */
   /* justify-content: space-between; */
@@ -5,13 +18,12 @@
   /* white-space: nowrap; */
   width: 100%;
   max-width: 1200px;
-  height: 4em;
-  position: fixed;
+  height: 100%;
+  margin: auto;
+  /* position: fixed; */
   top: 0px;
   background-color: #182024;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: #6FFFE9;
+
   /* box-shadow: 0px 0px 10000px #5bc0be */
 }
 
@@ -50,9 +62,9 @@
 .navbar-right {
   /* height: 100%; */
   height: 64px;
-  position: absolute;
-  right: 0px;
-  /* float: right; */
+  /* position: absolute; */
+  /* right: 0px; */
+  float: right;
   display: flex;
   /* justify-content: center; */
 }
@@ -140,12 +152,9 @@
 }
 
 @media (max-width: 720px) {
-  .navbar {
+  .navbar-wrapper {
     height: 40px;
   }
-  /* .navbar-right {
-    height: 40px;
-  } */
   .navbar-name h1 {
     font-size: 24px;
   }

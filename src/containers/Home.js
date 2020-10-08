@@ -25,51 +25,49 @@ const Home = () => {
 
   return (
     <div className='home-wrapper'>
-            <header className='home-header'>
+      <header className='home-header'>
         <div className='home-header-text'>
           {/* <h1>Coming soon!</h1> */}
           <h1 className='my-name'>Placido Wang</h1>
           {/* <p>Junior Software Engineer</p> */}
+          <p className='scroll-indicator' >v</p>
         </div>
       </header>
-    <main className='App-main home'>
-      {/* <h1>Home</h1> */}
-
-      <div className='quote'>
-        <h4>"Without requirements or design, programming is the art of adding bugs to an empty text file."</h4>
-        <h5>-Louis Srygley</h5>
-      </div><br/>
-      <div className='placeholder-text'>
-        <p>Hi! Thanks for checking out my website. I'm interested in how we can work together. Stick around for a bit, look at my work, send me a message!</p>
-      </div>
-      <br/>
-      <a href='projects' className='project-slideshow-link'>
-        <div className='project-slideshow'>
-          <h3 className='slideshow-title'>Check out my projects!</h3>
-
-          <div className='slide active'>
-            <img className='demo' alt='coup thumb' src={coupDemoGif} />
-          </div>
-
-          <div className='slide'>
-            <img className='demo' alt='coup thumb' src={leagueDemoGif} />
-          </div>
-
-          <div className='slide'>
-            <img className='demo' alt='coup thumb' src={flightDemoGif} />
-          </div>
+      <main className='App-main home'>
+        <div className='quote'>
+          <h4>"Without requirements or design, programming is the art of adding bugs to an empty text file."</h4>
+          <h5>-Louis Srygley</h5>
+        </div><br/>
+        <div className='placeholder-text'>
+          <p>Hi! Thanks for checking out my website. I'm interested in how we can work together. Stick around for a bit, look at my work, send me a message!</p>
         </div>
-      </a>
-      <br/>
-      <a className='contact-me' href='contact'><FontAwesomeIcon icon={faEnvelopeSquare} size='2x'/><h3>Contact me!</h3></a>
-      
-      <p className='footer'>
-      Placido Wang - 2020
-      </p><br/>
+        <br/>
+        <a href='projects' className='project-slideshow-link'>
+          <div className='project-slideshow'>
+            <h3 className='slideshow-title'>Check out my projects!</h3>
 
-    </main>
+            <div className='slide active'>
+              <img className='demo' alt='coup thumb' src={coupDemoGif} />
+            </div>
+
+            <div className='slide'>
+              <img className='demo' alt='coup thumb' src={leagueDemoGif} />
+            </div>
+
+            <div className='slide'>
+              <img className='demo' alt='coup thumb' src={flightDemoGif} />
+            </div>
+          </div>
+        </a>
+        <br/>
+        <a className='contact-me' href='contact'><FontAwesomeIcon icon={faEnvelopeSquare} size='2x'/><h3>Contact me!</h3></a>
+        
+        <p className='footer'>
+        Placido Wang - 2020
+        </p><br/>
+
+      </main>
     </div>
-
   );
 }
 

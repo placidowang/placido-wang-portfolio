@@ -1,13 +1,20 @@
 .home-wrapper {
   width: 100%;
-  max-width: 1200px;
+  /* width: 100vw; */
+  /* max-width: 1200px; */
   /* padding: 0px; */
+  margin-top: 40px;
+}
+
+.home {
+  margin: auto;
 }
 
 .home-header {
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   height: 90vh;
+  height: calc(100vh - 40px);
   /* background-color: rgba(93, 226, 238, 0.4); */
   background: url('../assets/background/circuit.png') no-repeat center center fixed;
   background-repeat: no-repeat;
@@ -18,6 +25,22 @@
   align-items: center;
   justify-content: center;
   margin-top: 0vw;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 0px;
+  display: inline;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  from {opacity: 1;}
+  to {opacity: 0;}
 }
 
 h1 {
@@ -99,6 +122,14 @@ a {
 }
 
 @media (min-width: 720px) {
+  .home-wrapper {
+    margin-top: 4em;
+  }
+
+  .home-header {
+    height: calc(100vh - 4em);
+  }
+
   h3 {
     font-size: 2em;
   }

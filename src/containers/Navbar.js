@@ -13,22 +13,24 @@ const Navbar = ({open, setOpen}) => {
   useOnClickOutside(node, () => setOpen(false));
 
   return (
-    <div className='navbar'>
-      <div className='navbar-left'>
-        <Name />
-      </div>
-      <div className='navbar-right'>
-        <NavlinksComponent />
-        <MediaLinksComponent />
-      </div>
+    <div className='navbar-wrapper'>
+      <div className='navbar'>
+        <div className='navbar-left'>
+          <Name />
+        </div>
+        <div className='navbar-right'>
+          <NavlinksComponent />
+          <MediaLinksComponent />
+        </div>
 
-      <div className='burger-menu' ref={node}>
-        <Burger
-          open={open}
-          setOpen={setOpen} />
-        <Menu
-          open={open}
-          setOpen={setOpen} />
+        <div className='burger-menu' ref={node}>
+          <Burger
+            open={open}
+            setOpen={setOpen} />
+          <Menu
+            open={open}
+            setOpen={setOpen} />
+        </div>
       </div>
     </div>
   )
