@@ -24,15 +24,17 @@ setInterval(() => {
 const Home = () => {
 
   return (
-    <main className='App-main home'>
-      {/* <h1>Home</h1> */}
-      <header className='home-header'>
+    <div className='home-wrapper'>
+            <header className='home-header'>
         <div className='home-header-text'>
           {/* <h1>Coming soon!</h1> */}
           <h1 className='my-name'>Placido Wang</h1>
           {/* <p>Junior Software Engineer</p> */}
         </div>
       </header>
+    <main className='App-main home'>
+      {/* <h1>Home</h1> */}
+
       <div className='quote'>
         <h4>"Without requirements or design, programming is the art of adding bugs to an empty text file."</h4>
         <h5>-Louis Srygley</h5>
@@ -66,6 +68,8 @@ const Home = () => {
       </p><br/>
 
     </main>
+    </div>
+
   );
 }
 
