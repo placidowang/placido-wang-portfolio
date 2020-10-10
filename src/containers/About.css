@@ -1,6 +1,11 @@
+.App-main {
+  width: 100%;
+}
+
 .about-hero {
-  padding: 1em;
+  padding: 1em 0em;
   background: rgba(0,0,0,0.4);
+  width: 100%;
 }
 
 .about-hero h2 {
@@ -9,4 +14,8 @@
 
 .about-hero h3 {
   font-size: 1.4em;
+}
+
+h3.section {
+  border-bottom: solid;
 }
