@@ -1,7 +1,7 @@
 .home-wrapper {
   width: 100%;
   /* width: 100vw; */
-  /* max-width: 1200px; */
+  /* max-width: 1100px; */
   /* padding: 0px; */
   margin-top: 40px;
 }
@@ -31,6 +31,7 @@
   position: absolute;
   bottom: 0px;
   display: inline;
+  /* z-index: 0; */
   animation-name: pulse;
   animation-duration: 2s;
   animation-iteration-count: infinite;

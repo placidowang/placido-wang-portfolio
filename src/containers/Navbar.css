@@ -50,6 +50,12 @@
 
 }
 
+.navbar-portrait {
+  height: 2em;
+  border-style: solid;
+  border-radius: 2em;
+}
+
 .navbar-left a:hover {
   background-color: #0f6e75;
 }
@@ -75,6 +81,7 @@
   width: 480px;
   /* height: 100%; */
   height: 80%;
+  z-index: 2;
   /* align-items: center; */
   /* justify-content: center; */
 }
@@ -157,6 +164,10 @@
   }
   .navbar-name h1 {
     font-size: 24px;
+  }
+  .navbar-portrait {
+    height: 1.2em;
+    border-width: 1px;
   }
   .navbar-right {
     display: none;
