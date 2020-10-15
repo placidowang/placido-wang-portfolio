@@ -1,9 +1,12 @@
 import React from 'react';
 import './About.css';
+import portrait from '../assets/my_portrait.png';
 
 const About = () => <div className="App-main about">
-  <h1 className='App-main-title'>About</h1>
-  <div className='about-hero'>
+  {/* <h1 className='App-main-title'>About</h1> */}
+
+  <div className='about-hero' >
+    <img className='about-portrait' src={portrait} />
     <h1>Hi</h1>
     <h2>I'm Placido Wang</h2>
     {/* <h3>And I'm an engineer.</h3> */}
@@ -20,11 +23,16 @@ const About = () => <div className="App-main about">
   <p>JavaScript, React.js, Hooks, Redux.js, Node.js, HTML5, Cascading Style Sheets (CSS), jQuery, RESTful Webservices, API, JSON, Ruby on Rails, MVC, ActiveRecord, CRUD, Object Oriented Programming (OOP), SQL database, PostgresSQL, GitHub, Bash/Terminal, CLI</p>
 
   <h3 className='section'>EXPERIENCE</h3>
-  <p>Smith n Associates, 07/2014 - 11/2019</p>
+  <p className='place'>Smith & Associates</p>
+  <p className='date'>07/2014 - 11/2019</p>
+  
 
   <h3 className='section'>EDUCATION</h3>
-  <p>the flattest of irons</p>
-  <p>UTD</p>
+  <p className='place'>The Flatiron School - Software Engineering full immersive</p>
+  <p className='date'>01/2020 - 05/2020</p>
+  <br/>
+  <p className='place'>The University of Texas at Dallas</p>
+  <p className='date'>08/2009 - 12/2011</p>
 
   <h3 className='section'></h3>
 

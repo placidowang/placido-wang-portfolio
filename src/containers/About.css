@@ -2,8 +2,13 @@
   width: 100%;
 }
 
+.about-portrait {
+  margin: 20px 0px;
+}
+
 .about-hero {
-  padding: 1em 0em;
+  margin: auto;
+  /* padding: 1em 0em; */
   background: rgba(0,0,0,0.4);
   width: 100%;
 }
@@ -16,6 +21,15 @@
   font-size: 1.4em;
 }
 
+
 h3.section {
   border-bottom: solid;
+}
+
+.place {
+  margin: 0px;
+}
+
+.date {
+  margin: 0px;
 }
