@@ -13,7 +13,7 @@
   right: 0;
   transform: translateX(100%);
   transition: 0.3s;
-  z-index: 9;
+  z-index: 11;
 }
 
 .menu > a {

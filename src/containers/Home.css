@@ -75,8 +75,9 @@ a {
   position: relative;
   width: 100%;
   max-width: 600px;
+  display: inline-flex;
   margin: auto;
-  z-index: -1;
+  z-index: 0;
 }
 
 .slideshow-title {
