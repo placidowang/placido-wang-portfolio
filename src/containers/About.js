@@ -7,11 +7,13 @@ const About = () => <div className="App-main about">
 
   <div className='about-hero' >
     <img className='about-portrait' src={portrait} />
-    <h1>Hi</h1>
-    <h2>I'm Placido Wang</h2>
+    <div className='about-hero-text'>
+      <h1>Hi.</h1>
+      <h2>I'm Placido Wang</h2>
+    </div>
     {/* <h3>And I'm an engineer.</h3> */}
   </div>
-  <p>I'm a guy that likes things and I did this in my past and then I decided I wanted a change so I changed and tried a thing and liked it so now I'm here, now I want a job and a career or something.</p>
+  <p>Full Stack Web Developer experienced in JavaScript/React and Ruby on Rails and a background troubleshooting computer software and hardware issues. With my creative and analytical skills, I love building elegant, efficient solutions to everyday problems. I possess strong skills in problem-solving, critical thinking, adaptability, attention to detail, and teamwork that help software companies achieve their technology development goals.</p>
   {/* <p>My dad told me when I was four years old, I touched a computer mouse for the first time and started drawing in MS Paint.</p>
   <p>He saw how quickly I started using something I'd never used before, and I was using it to express myself through a technological tool.</p>
   <p>He saw how quickly I understood how to use this technological tool for my own expression.</p>
