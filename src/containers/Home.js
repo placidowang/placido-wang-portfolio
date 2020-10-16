@@ -10,7 +10,7 @@ let i = 0;
 
 setInterval(() => {
   const slides = document.querySelectorAll('.slide');
-  i = (i + 1) % 3;
+  i = (i + 1) % slides.length;
 
   for (let j = 0; j < slides.length; j++) {
     if (j === i) {

@@ -7,7 +7,7 @@ const About = () => <div className="App-main about">
   {/* <h1 className='App-main-title'>About</h1> */}
 
   <div className='about-hero' >
-    <img className='about-portrait' src={portrait} />
+    <img className='about-portrait' src={portrait} alt='portrait'/>
     <div className='about-hero-text'>
       <h1>Hi.</h1>
       <h2>I'm Placido Wang</h2>
@@ -31,7 +31,6 @@ const About = () => <div className="App-main about">
   <p className='place'>Smith & Associates</p>
   <p className='place'>Quality Control Specialist</p>
   <p className='date'>07/2014 - 11/2019</p>
-  
 
   <h3 className='section'>EDUCATION</h3>
   <p className='place'>The Flatiron School - Software Engineering full immersive</p>
@@ -40,7 +39,7 @@ const About = () => <div className="App-main about">
   <p className='place'>The University of Texas at Dallas</p>
   <p className='date'>08/2009 - 12/2011</p>
 
-  <h3 className='section'></h3>
+  <div className='section' />
 
   <a className='resume-download-link' href={resume} download='Placido_Wang_Software_Engineer_Resume.pdf'><p>Click here to download my resume!</p></a>
 </div>
