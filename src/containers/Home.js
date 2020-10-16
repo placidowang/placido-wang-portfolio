@@ -34,10 +34,10 @@ const Home = () => {
         </div>
       </header>
       <main className='App-main home'>
-        <div className='quote'>
+        {/* <div className='quote'>
           <h4>"Without requirements or design, programming is the art of adding bugs to an empty text file."</h4>
           <h5>-Louis Srygley</h5>
-        </div><br/>
+        </div><br/> */}
         <div className='placeholder-text'>
           <p>Hi! Thanks for checking out my website. I'm interested in how we can work together. Stick around for a bit, look at my work, send me a message!</p>
         </div>
