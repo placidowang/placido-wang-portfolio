@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = (props) => <div className='project-card'>
   <div className='project-thumb'>
-    <a href={props.project.youtubeUrl}>
+    <a href={props.project.youtubeUrl} target="_blank">
       <img alt={`${props.project.name} demo gif`} src={props.demoGif}/>
     </a>
   </div>
@@ -11,7 +11,9 @@ const ProjectCard = (props) => <div className='project-card'>
     <h2>{props.project.name}</h2>
     <p>{props.project.description}</p>
     <p>{props.project.builtWith}</p>
-    <div className='project-links'><a href={props.project.youtubeUrl}><p>Video Demo</p></a><a href={props.project.githubUrl}><p>Github</p></a></div>
+    <div className='project-links'>
+      <a href={props.project.youtubeUrl}target="_blank"><p>Video Demo</p></a>
+      <a href={props.project.githubUrl}target="_blank"><p>Github</p></a></div>
   </div>
 
 </div>

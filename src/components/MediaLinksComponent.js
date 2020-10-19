@@ -11,13 +11,13 @@ const MediaLinksComponent = () => <nav className='media-icons'>
   {/* <a href='mailto:somebody'semail@email.com'>
     <FontAwesomeIcon icon={faEnvelopeSquare} size='2x' href='google.com'/>
   </a> */}
-  <a href='https://medium.com/@placidowang'>
+  <a href='https://medium.com/@placidowang' target="_blank">
     <FontAwesomeIcon icon={faMedium} size='2x'/>
   </a>
-  <a href='https://linkedin.com/in/placidowang'>
+  <a href='https://linkedin.com/in/placidowang' target="_blank">
     <FontAwesomeIcon icon={faLinkedin} size='2x'/>
   </a>
-  <a href='https://github.com/placidowang'>
+  <a href='https://github.com/placidowang' target="_blank">
     <FontAwesomeIcon icon={faGithubSquare} size='2x'/>
   </a>
 </nav>
