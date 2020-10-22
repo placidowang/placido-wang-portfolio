@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import './Home.css';
 import coupDemoGif from '../assets/projects/coup-react-demo.gif';
 import leagueDemoGif from '../assets/projects/league-tracker-demo.gif';
@@ -8,22 +8,24 @@ import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 
 
 
-const Home = () => {
-  let [i, updateI] = useState(0);
-  // let i = 0;
+const Home = ({slideshowIndex}) => {
 
-  setInterval(() => {
+  useEffect(() => {
+    console.log('showing slide: ' + slideshowIndex)
+
     const slides = document.querySelectorAll('.slide');
-    i = (i + 1) % slides.length;
-  
-    for (let j = 0; j < slides.length; j++) {
-      if (j === i) {
-        slides[j].className += " active";
-      } else {
-        slides[j].className = "slide";
+    // console.log(slides);
+    // if (slideshowIndex && slides) {
+      for (let j = 0; j < slides.length; j++) {
+        if (j === slideshowIndex) {
+          slides[j].className += " active";
+        } else {
+          slides[j].className = "slide";
+        }
       }
-    }
-  }, 1000)
+    // }
+  }, [slideshowIndex])
+
   
   return (
     <div className='home-wrapper'>
