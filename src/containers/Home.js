@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import coupDemoGif from '../assets/projects/coup-react-demo.gif';
 import leagueDemoGif from '../assets/projects/league-tracker-demo.gif';
@@ -6,23 +6,25 @@ import flightDemoGif from '../assets/projects/flight-guru-demo.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 
-let i = 0;
 
-setInterval(() => {
-  const slides = document.querySelectorAll('.slide');
-  i = (i + 1) % slides.length;
-
-  for (let j = 0; j < slides.length; j++) {
-    if (j === i) {
-      slides[j].className += " active";
-    } else {
-      slides[j].className = "slide";
-    }
-  }
-}, 5000)
 
 const Home = () => {
+  let [i, updateI] = useState(0);
+  // let i = 0;
 
+  setInterval(() => {
+    const slides = document.querySelectorAll('.slide');
+    i = (i + 1) % slides.length;
+  
+    for (let j = 0; j < slides.length; j++) {
+      if (j === i) {
+        slides[j].className += " active";
+      } else {
+        slides[j].className = "slide";
+      }
+    }
+  }, 1000)
+  
   return (
     <div className='home-wrapper'>
       <header className='home-header'>

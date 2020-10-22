@@ -73,11 +73,14 @@ a {
 
 .project-slideshow {
   position: relative;
+  /* height: 100%; */
+  height: 51vw;
   width: 100%;
-  max-width: 600px;
+  /* max-width: 600px; */
   display: inline-flex;
   margin: auto;
   z-index: 0;
+  background-color: black;
 }
 
 .slideshow-title {
@@ -146,6 +149,11 @@ a {
 
   .placeholder-text {
     font-size: 1.8em;
+  }
+
+  .project-slideshow {
+    height: 340px;
+    width: 600px;
   }
 
   .project-slideshow-link:hover .slideshow-title {
