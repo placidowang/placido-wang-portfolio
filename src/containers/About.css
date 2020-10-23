@@ -25,14 +25,27 @@
   font-size: 1.4em;
 }
 
+.summary {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
 .section {
+  width: 80%;
+  text-align: left;
+  font-size: 1.4em;
   border-top: solid;
   border-width: 1px;
-  margin: 30px 0px 0px;
+  /* margin: 30px 0px 0px; */
+  margin: 30px auto 0px;
 }
 
 .skills, .place, .date {
-  margin: 0px;
+  width: 80%;
+  /* margin: 0px; */
+  margin: auto;
+  text-align: left;
 }
 
 .resume-download-link p {
