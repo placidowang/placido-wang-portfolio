@@ -26,24 +26,32 @@ const About = () => <div className="App-main about">
   <p>From this point, he knew I would become an engineer.</p>
   <br/>
   <p>I later learned how to build my own computers to fuel my video game <span style={{textDecoration: 'line-through'}}>obsession</span> hobby.</p> */}
-  <h3 className='section'>SKILLS</h3>
-  <p className='skills'>JavaScript, React.js, Hooks, Redux.js, Node.js, HTML5, Cascading Style Sheets (CSS), jQuery, RESTful Webservices, API, JSON, Ruby on Rails, MVC, ActiveRecord, CRUD, Object Oriented Programming (OOP), SQL database, PostgresSQL, GitHub, Bash/Terminal, CLI</p>
+  <div className='section'>
+    <h3>SKILLS</h3>
+    <p className='skills'>JavaScript, React.js, Hooks, Redux.js, Node.js, HTML5, Cascading Style Sheets (CSS), jQuery, RESTful Webservices, API, JSON, Ruby on Rails, MVC, ActiveRecord, CRUD, Object Oriented Programming (OOP), SQL database, PostgresSQL, GitHub, Bash/Terminal, CLI</p>
+  </div>
 
-  <h3 className='section'>EXPERIENCE</h3>
-  <p className='place'>Smith & Associates</p>
-  <p className='place'>Quality Control Specialist</p>
-  <p className='date'>07/2014 - 11/2019</p>
+  <div className='section'>
+    <h3>EXPERIENCE</h3>
+    <a href='https://www.smithweb.com/' target="_blank" rel="noopener noreferrer"><p className='place link'>Smith & Associates</p></a>
+    <p className='place'>Quality Control Specialist</p>
+    <p className='date'>07/2014 - 11/2019</p>
+  </div>
 
-  <h3 className='section'>EDUCATION</h3>
-  <p className='place'>The Flatiron School - Software Engineering full immersive</p>
-  <p className='date'>01/2020 - 05/2020</p>
-  <br/>
-  <p className='place'>The University of Texas at Dallas</p>
-  <p className='date'>08/2009 - 12/2011</p>
+  <div className='section'>
+    <h3>EDUCATION</h3>
+    <a href='https://flatironschool.com/' target="_blank" rel="noopener noreferrer"><p className='place link'>The Flatiron School</p></a>
+    <p className='place'>Software Engineering Full Immersive Program</p>
+    <p className='date'>01/2020 - 05/2020</p>
+    <br/>
+    <a href='https://www.utdallas.edu/' target="_blank" rel="noopener noreferrer"><p className='place link'>The University of Texas at Dallas</p></a>
+    <p className='place'>Completed coursework toward a B.S. in Computer Engineering</p>
+    <p className='date'>08/2009 - 12/2011</p>
+  </div>
 
   <div className='section' />
 
-  <a className='resume-download-link' href={resume} download='Placido_Wang_Software_Engineer_Resume.pdf'><p>Click here to download my resume!</p></a>
+  <a className='resume-download-link link' href={resume} download='Placido_Wang_Software_Engineer_Resume.pdf'><p>Click here to download my resume!</p></a>
 </div>
 
 export default About;
