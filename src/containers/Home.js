@@ -10,7 +10,7 @@ const Home = () => {
   const [slideshowIndex, setSlideshowIndex] = useState(0);
 
   useEffect(() => {
-    console.log('showing slide: ' + slideshowIndex)
+    // console.log('showing slide: ' + slideshowIndex)
     const slides = document.querySelectorAll('.slide');
 
     const interval = setInterval(() => {
