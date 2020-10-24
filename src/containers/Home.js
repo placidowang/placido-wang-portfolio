@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 import coupDemoGif from '../assets/projects/coup-react-demo.gif';
 import leagueDemoGif from '../assets/projects/league-tracker-demo.gif';
@@ -6,25 +6,28 @@ import flightDemoGif from '../assets/projects/flight-guru-demo.gif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 
-
-
-const Home = ({slideshowIndex}) => {
+const Home = () => {
+  const [slideshowIndex, setSlideshowIndex] = useState(0);
 
   useEffect(() => {
     console.log('showing slide: ' + slideshowIndex)
-
     const slides = document.querySelectorAll('.slide');
-    // console.log(slides);
-    // if (slideshowIndex && slides) {
-      for (let j = 0; j < slides.length; j++) {
-        if (j === slideshowIndex) {
-          slides[j].className += " active";
-        } else {
-          slides[j].className = "slide";
-        }
+
+    const interval = setInterval(() => {
+      setSlideshowIndex(((slideshowIndex + 1) % slides.length));
+    }, 5000)
+    
+    for (let j = 0; j < slides.length; j++) {
+      if (j === slideshowIndex) {
+        slides[j].className += " active";
+      } else {
+        slides[j].className = "slide";
       }
-    // }
-  }, [slideshowIndex])
+    }
+
+    // otherwise component will set interval for every update
+    return () => clearInterval(interval);
+  })
 
   
   return (
