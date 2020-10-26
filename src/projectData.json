@@ -22,7 +22,7 @@
       "description": "Flight tracker that searches for airport restaurants based on your flight number.",
       "builtWith": "Built with HTML/CSS and Ruby on Rails",
       "youtubeUrl": "https://www.youtube.com/watch?v=RzDnEccT6vk",
-      "githubUrl": "https://github.com/timothyalton/flight-guru-app"
+      "githubUrl": "https://github.com/placidowang/flight-guru-app"
     }
   ]
 }
