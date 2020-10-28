@@ -61,12 +61,9 @@
 
 .media-links-component-container {
   height: 50px;
+  display: flex;
 }
 
 .menu nav.media-icons {
-  position: absolute;
-  bottom: 4px;
-  /* top: 0; */
   margin: auto;
-  right: calc(33vw - 90px);
 }
