@@ -4,15 +4,16 @@
   justify-content: center;
   background: rgb(21, 64, 75);
   /* height: 100vh; */
-  height: 100%;
-  overflow: auto;
+  /* height: 100%; */
   /* min-height: 100%; */
+  /* overflow: auto; */
   width: 66vw;
   text-align: left;
   padding: 0px;
   position: fixed;
   top: 0;
   right: 0;
+  bottom: 0;
   transform: translateX(100%);
   transition: 0.3s;
   z-index: 11;
