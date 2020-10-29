@@ -22,6 +22,7 @@ const App = () => {
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
+        <div style={{backgroundColor: 'red', width: '100%', position: 'fixed', bottom: '0px',}}>hey</div>
       </div>
     </Router>
   );
