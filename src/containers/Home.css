@@ -13,10 +13,10 @@
 .home-header {
   width: 100%;
   /* max-width: 1200px; */
-  height: 90vh;
-  height: calc(100vh - 40px);
+  /* height: 90vh; */
+  height: calc(100% - 40px);
   /* background-color: rgba(93, 226, 238, 0.4); */
-  background: url('../assets/background/circuit.png') no-repeat center center fixed;
+  background: url('../assets/background/circuit.jpg') no-repeat center center fixed;
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
