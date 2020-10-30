@@ -27,9 +27,11 @@ window.addEventListener('resize', () => {
 
 // window.onresize(console.log(window.height));
 
-const Menu = ({ open, setOpen }) => <nav id='menu' className={open ? 'menu menu-open' : 'menu'}>
-  <NavlinksComponent open={open} setOpen={setOpen}/>
-  <div className='media-links-component-container'>
+const Menu = ({ open, setOpen }) => <nav id='menu' className='menu'>
+  <div className={open ? 'navlinks-container menu-open' : 'navlinks-container'}>
+    <NavlinksComponent open={open} setOpen={setOpen}/>
+  </div>
+  <div className={open ? 'media-links-component-container menu-open' : 'media-links-component-container'}>
     <MediaLinksComponent />
   </div>
 </nav>
