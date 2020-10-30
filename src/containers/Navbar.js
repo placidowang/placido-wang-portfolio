@@ -1,14 +1,10 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Name from '../components/Name.js';
 import NavlinksComponent from '../components/NavlinksComponent.js'
 import MediaLinksComponent from '../components/MediaLinksComponent.js'
-
 import './Navbar.css';
 
-
 const Navbar = () => {
-
-
   return (
     <div className='navbar-wrapper'>
       <div className='navbar'>
@@ -19,8 +15,6 @@ const Navbar = () => {
           <NavlinksComponent />
           <MediaLinksComponent />
         </div>
-
-
       </div>
     </div>
   )
