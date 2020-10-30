@@ -29,9 +29,10 @@ const App = () => {
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
         
-        {/* <div style={{backgroundColor: 'rgba(0,255,0,0.7)', width: '100%', height: '1100%', position: 'fixed', top: '40px',}}>sup</div> */}
 
-<div style={{height: '100vh', position: 'fixed', right: '0px', top: '0px'}}>
+
+<div style={{height: '600px', width: '200px', position: 'fixed', left: '0px', top: '0px', backgroundColor: 'yellow'}}>
+        <div style={{backgroundColor: 'rgba(0,255,0,0.7)', width: '160px', height: '1100%', position: 'fixed', top: '0px',}}>sup</div>
         <div style={{backgroundColor: 'rgba(255,0,0,0.7)', width: '100%', position: 'fixed', bottom: '0px', left: '0'}}>hey</div>
 </div>
 

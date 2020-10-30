@@ -39,6 +39,10 @@ a {
 
 
 
+.burger-menu {
+  display: none;
+}
+
 .project-card {
   background-color: rgba(0,0,0, 0.7);
   /* padding: 30px; */
@@ -143,5 +147,8 @@ a {
 @media (max-width: 720px) {
   .App-main-title {
     margin: 0px;
+  }
+  .burger-menu {
+    display: initial;
   }
 }

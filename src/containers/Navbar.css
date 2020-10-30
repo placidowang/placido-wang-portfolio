@@ -144,10 +144,6 @@
   margin: 0px 8px;
 }
 
-.burger-menu {
-  display: none;
-}
-
 @media (max-width: 950px) {
   .navbar-name h1 {
     font-size: 24px;
@@ -171,8 +167,5 @@
   }
   .navbar-right {
     display: none;
-  }
-  .burger-menu {
-    display: initial;
   }
 }
