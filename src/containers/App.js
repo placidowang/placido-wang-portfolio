@@ -31,9 +31,9 @@ const App = () => {
         
         {/* <div style={{backgroundColor: 'rgba(0,255,0,0.7)', width: '100%', height: '1100%', position: 'fixed', top: '40px',}}>sup</div> */}
 
-<div style={{height: '100%', position: 'fixed', right: '0px', top: '0px'}}>
+<div style={{height: '100vh', position: 'fixed', right: '0px', top: '0px'}}>
         <div style={{backgroundColor: 'rgba(255,0,0,0.7)', width: '100%', position: 'fixed', bottom: '0px', left: '0'}}>hey</div>
-        </div>
+</div>
 
         <div className='burger-menu' ref={node}>
           <Burger
