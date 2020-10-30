@@ -28,8 +28,11 @@ const App = () => {
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
-        <div style={{backgroundColor: 'rgba(255,0,0,0.7)', width: '100%', position: 'fixed', bottom: '0px',}}>hey</div>
-        <div style={{backgroundColor: 'rgba(0,255,0,0.7)', width: '100%', position: 'fixed', top: '40px',}}>sup</div>
+        
+        {/* <div style={{backgroundColor: 'rgba(0,255,0,0.7)', width: '100%', height: '1100%', position: 'fixed', top: '40px',}}>sup</div> */}
+
+        {/* <div style={{backgroundColor: 'rgba(255,0,0,0.7)', width: '100%', position: 'fixed', bottom: '0px', left: '0'}}>hey</div> */}
+
         <div className='burger-menu' ref={node}>
           <Burger
             open={open}
