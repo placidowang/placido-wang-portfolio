@@ -69,9 +69,7 @@ const Home = () => {
         <br/>
         <a className='contact-me' href='contact'><FontAwesomeIcon icon={faEnvelopeSquare} size='2x'/><h3>Contact me!</h3></a>
         
-        <p className='footer'>
-        Placido Wang - 2020
-        </p><br/>
+
 
       </main>
     </div>

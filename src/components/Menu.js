@@ -3,27 +3,19 @@ import NavlinksComponent from './NavlinksComponent.js';
 import MediaLinksComponent from './MediaLinksComponent.js';
 import './Menu.css';
 
-// const heightOutput = document.querySelector('#height');
-// const widthOutput = document.querySelector('#width');
+// let vh = window.innerHeight * 0.01;
 
-// function reportWindowSize() {
-//   heightOutput.textContent = window.innerHeight;
-//   widthOutput.textContent = window.innerWidth;
-// }
+// document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-let vh = window.innerHeight * 0.01;
-
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-
-window.addEventListener('resize', () => {
-  console.log(window.innerHeight);
+// window.addEventListener('resize', () => {
+  // console.log(window.innerHeight);
   // const menu = document.querySelector('#menu');
   // console.log(menu);
   // menu.style.height = `${window.innerHeight}px`;
-  let vh = window.innerHeight * 0.01;
+  // let vh = window.innerHeight * 0.01;
 
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
+  // document.documentElement.style.setProperty('--vh', `${vh}px`);
+// });
 
 // window.onresize(console.log(window.height));
 

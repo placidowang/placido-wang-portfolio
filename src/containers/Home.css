@@ -6,6 +6,10 @@
   margin-top: 40px;
 }
 
+.App-main.home{
+  min-height: 0px;
+}
+
 .home {
   margin: auto;
 }
@@ -130,9 +134,7 @@ a {
   margin: 10px;
 }
 
-.footer {
-  font-size: 0.6em;
-}
+
 
 @media (min-width: 720px) {
   .home-wrapper {
@@ -160,7 +162,4 @@ a {
     font-size: 2.2em;
   }
 
-  .footer {
-    font-size: 0.8em;
-  }
 }
