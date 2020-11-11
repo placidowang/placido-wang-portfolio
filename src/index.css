@@ -4,8 +4,9 @@ html {
   /* background-position: fixed; */
   /* background-size: cover; */
   background-color: #182024;
-
 }
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Arvo:wght@400;700&family=Exo:wght@300;400;700&display=swap');
 
@@ -21,6 +22,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgba(90,60,100, 0.55); */
   /* background-color: rgba(60,50,70, 0.75); */
+}
+
+html.menu-open, body.menu-open {
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
 }
 
 code {

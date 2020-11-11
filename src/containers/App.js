@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import Navbar from './Navbar.js';
 import Home from './Home.js';
@@ -16,6 +16,18 @@ const App = () => {
   const [open, setOpen] = useState(false);
   const node = useRef();
   useOnClickOutside(node, () => setOpen(false));
+
+  useEffect(() => {
+    const html = document.querySelector('html');
+    const body = document.querySelector('body');
+    if (open) {
+      html.className += " menu-open";
+      body.className += " menu-open";
+    } else {
+      html.className = "";
+      body.className = "";
+    }
+  }, [open])
 
   return (
     <Router>
