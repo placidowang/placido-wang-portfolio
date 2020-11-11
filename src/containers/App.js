@@ -21,8 +21,8 @@ const App = () => {
     const html = document.querySelector('html');
     const body = document.querySelector('body');
     if (open) {
-      html.className += " menu-open";
-      body.className += " menu-open";
+      html.className += " noscroll";
+      body.className += " noscroll";
     } else {
       html.className = "";
       body.className = "";
