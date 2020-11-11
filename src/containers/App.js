@@ -20,12 +20,16 @@ const App = () => {
   useEffect(() => {
     const html = document.querySelector('html');
     const body = document.querySelector('body');
+    const overlay = document.querySelector('#overlay');
+
     if (open) {
       html.className += " noscroll";
       body.className += " noscroll";
+      overlay.className += " noscroll";
     } else {
       html.className = "";
       body.className = "";
+      overlay.className = "";
     }
   }, [open])
 
@@ -56,6 +60,9 @@ const App = () => {
             open={open}
             setOpen={setOpen} />
         </div>
+
+        <div id='overlay' />
+
         <p className='footer'>
           Placido Wang - 2020
         </p><br/>
