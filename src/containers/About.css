@@ -26,6 +26,7 @@
 }
 
 .summary {
+  font-size: 1.4em;
   width: 80%;
   margin: auto;
   text-align: left;
@@ -56,9 +57,16 @@
   display: inline;
 }
 
+.resume-download-link {
+  padding-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
 .resume-download-link p {
-  display: inline;
-  line-height: 4em;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 1.4em;
 }
 
 @media (min-width: 720px) {

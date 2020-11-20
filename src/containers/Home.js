@@ -49,6 +49,8 @@ const Home = () => {
           <p>Hi! Thanks for checking out my website. I'm interested in how we can work together. Stick around for a bit, look at my work, send me a message!</p>
         </div>
         <br/>
+
+        {/* Should create a Slideshow component */}
         <a href='projects' className='project-slideshow-link'>
           <div className='project-slideshow'>
             <h3 className='slideshow-title'>Check out my projects!</h3>
