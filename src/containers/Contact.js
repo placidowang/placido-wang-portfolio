@@ -4,6 +4,10 @@ import './Contact.css';
 import { init, sendForm } from 'emailjs-com';
 init("user_10fjvwDAhJO2tzjJ3NOfh");
 
+fetch('/.netlify/functions/email?')
+  .then(r => r.json())
+  .then(console.log)
+
 const Contact = () => {
   const { register, handleSubmit, watch, errors } = useForm();
   const [statusMessage, setStatusMessage] = useState("Message");
