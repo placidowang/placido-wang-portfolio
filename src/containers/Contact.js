@@ -5,13 +5,13 @@ import { init, sendForm } from 'emailjs-com';
 
 fetch('/.netlify/functions/email?')
 .then(r => r.json())
-.then(data => init(data.message))
+.then(data => {init(data.message)})
 
 const Contact = () => {
   const { register, handleSubmit, watch, errors } = useForm();
   const [statusMessage, setStatusMessage] = useState("Message");
   const [contactNumber, setContactNumber] = useState("000000");
-  
+
   const generateContactNumber = () => {
     const numStr = "000000" + (Math.random() * 1000000 | 0);
     setContactNumber(numStr.substring(numStr.length - 6));
